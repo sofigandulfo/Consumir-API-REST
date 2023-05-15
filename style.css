@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: tomato;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+div {
+    max-width: 500px;
+}
+
+img {
+    width: 100%;   
+    height: 100%;
+    margin: 0 auto;
+}
