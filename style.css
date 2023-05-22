@@ -12,7 +12,7 @@ body {
 
 button {
     font-size: 1.5em;
-    background-color: tomato;
+    background-color: rgb(123, 152, 194);
     color: #fff;
     border: 1px solid black;
     border-radius: 5px;
@@ -20,12 +20,21 @@ button {
     margin: 0 auto;
 }
 
-div {
+.div-img{
     max-width: 500px;
 }
 
-img {
+#img {
     width: 100%;   
     height: 100%;
-    margin: 0 auto;
+    margin: 5px auto;
+}
+
+.botones{
+    display: flex;
+}
+
+.botones img{
+    width: 100%;   
+    height: 100%;
 }
